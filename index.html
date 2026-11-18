@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind Library -->
+    <script src="../browser@4.js"></script>
+    <!-- Css File -->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="w-[90%] m-auto">
+    <div class="grid lg:grid-cols-4 xl:grid-cols-6 sm:grid-cols-2 md:grid-cols-3"> 
+        <h2>Lorem ipsum 1</h2>
+        <h2>Lorem ipsum 2</h2>
+        <h2>Lorem ipsum 3</h2>
+        <h2>Lorem ipsum 4</h2>
+
+        <div class="lg:col-span-2 xl:col-span-1">
+            <h2>Lorem ipsum 5</h2>
+        </div>
+        <div class="lg:col-span-2 xl:col-span-1">
+            <h2>Lorem ipsum 6</h2>
+        </div>
+        
+    </div>
+    </div>
+<!-- 
+xs ====> 1px: 640px      ===>    1    1    1   1   1 
+sm ====> 640px : 768px   ===>    2    2    2
+md ====> 768px : 1024px  ===>    3    3
+lg====> 1024px : 1280px  ===>    4    2
+xl ===> 1280px : 1536px  ===>    6
+2xl ===> 1536px : infinite
+-->
+</body>
+</html>
